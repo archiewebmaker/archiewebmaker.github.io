@@ -194,8 +194,8 @@ if (thisUrl.indexOf("/search/label/") != -1) {
 var home_page = "/";
 if (thisUrl.indexOf("?q=") == -1) {
     if (thisUrl.indexOf("/search/label/") == -1) {
-        document.write('<div class="margin-top-bottom-50"><script src="' + home_page + 'feeds/posts/summary?alt=json-in-script&callback=showpageCount&max-results=99999" ><\/script></div>')
+        document.write('<script src="' + home_page + 'feeds/posts/summary?alt=json-in-script&callback=showpageCount&max-results=99999" ><\/script>')
     } else {
-        document.write('<div class="margin-top-bottom-50"><script src="' + home_page + 'feeds/posts/full/-/' + lblname1 + '?alt=json-in-script&callback=showpageCount2&max-results=99999" ><\/script></div>')
+        document.write('<script src="' + home_page + 'feeds/posts/full/-/' + lblname1 + '?alt=json-in-script&callback=showpageCount2&max-results=99999" ><\/script>')
     }
 }
