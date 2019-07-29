@@ -1,28 +1,3 @@
-$(document).ready(function(){
-        function redirect(){
-            window.location.assign('https://www.ashramedia.com/');
-        }
-        function check(){
-                if($('#credits').length === 0){
-                    redirect();
-                }
-
-                else if($('#creditlink').length === 0){
-                    redirect();
-                }
-
-                else if($("#creditlink").attr("href") !== "https://www.ashramedia.com/"){
-                    redirect();
-                }
-
-                else if($('#creditlink').text() !== "Ashramedia"){
-                    redirect();
-                } 
-            }
-        check();
-        setInterval(function () {check()}, 5000);
-        });
-
 // Page Navigation
 function showpageCount(json) {
     var thisUrl = home_page_url;
