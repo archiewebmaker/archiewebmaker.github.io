@@ -1,4 +1,3 @@
-//<![CDATA[
 var AshramediaSummary = {
     displayimages: false,
     imagePosition: &#39;left&#39;,
@@ -17,6 +16,7 @@ var maxresults=4;
 var splittercolor=&quot;#fff&quot;;
 var relatedpoststitle=&quot;Similar posts&quot;;
 
+//<![CDATA[
 function summary(h) {
     summary.count = summary.count || 0;
     summary.count++;
