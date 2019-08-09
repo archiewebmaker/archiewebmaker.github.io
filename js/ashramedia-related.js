@@ -1,3 +1,4 @@
+//<![CDATA[
 var AshramediaSummary = {
     displayimages: false,
     imagePosition: &#39;left&#39;,
@@ -167,3 +168,4 @@ thumburl.splice(0,thumburl.length);
 relatedTitles.splice(0,relatedTitles.length);
 
 }
+//]]>
