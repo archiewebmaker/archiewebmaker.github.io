@@ -24,7 +24,7 @@ $(document).ready(function(){
                     redirect();
                 }
 
-                else if($("#creditlink").attr("href") !== "https://www.ashramedia.com"){
+                else if($("#creditlink").attr("href") !== 'https://www.ashramedia.com'){
                     redirect();
                 }
 
