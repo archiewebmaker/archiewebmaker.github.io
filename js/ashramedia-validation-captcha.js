@@ -26,7 +26,7 @@
 		var element = this; 
 		var submit = $(this).find('input[type=submit]');
 		$('<label id="ebcaptchatext"></label>').insertBefore(submit);
-		$('<input type="text" class="form-control" id="ebcaptchainput" placeholder="Are you human?"/><br/><br/>').insertBefore('#humantest');
+		$('<input type="text" class="form-control" name="Human-test" id="ebcaptchainput" placeholder="Are you human?"/><br/><br/>').insertBefore('#humantest');
 		var input = this.find('#ebcaptchainput'); 
 		var label = this.find('#ebcaptchatext'); 
 		
