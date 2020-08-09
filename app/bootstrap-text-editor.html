@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174556828-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174556828-1');
+</script>
+
+<title>Bootstrap WYSIWYG Editor With Save Functionality - Ashramedia</title>
+	
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Learn How To Start Your Online Business From Scratch.">
+<meta name="keywords" content="Make Money Online, Marketing, Digital Marketing, Startups, Business, Online Business, Entrepreneur, Entrepreneurship, Freelance, Freelancing, Blogger, Blogging, Writing, Writers, Custom Web design, Custom, Blog Design, Github Page.">
+<meta name="author" content="Ashramedia">    
+<link rel="shortcut icon" href="favicon.ico"> 
+	
+<!-- Open Graph  -->	
+<meta property="og:title" content="Learn How To Make Money Online">
+<meta property="og:description" content="Learn How To Start Your Online Business From Scratch.">
+<meta property="og:image" content="https://ashramedia.github.io/images/hero-bg.jpg">
+<meta property="og:url" content="https://ashramedia.github.io">
+<meta name="twitter:card" content="summary_large_image">
+<!--  Non-Essential, But Recommended -->
+<meta property="og:site_name" content="Ashramedia">
+<meta name="twitter:image:alt" content="Learn How To Start Your Online Business From Scratch.">
+<!--  Non-Essential, But Required for Analytics -->
+<meta property="fb:app_id" content="753651358162876" />
+<meta name="twitter:site" content="@ashramedia">
+
+<script language="Javascript" >
+function download(filename, text) {
+  var pom = document.createElement('a');
+  pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + 
+
+encodeURIComponent(text));
+  pom.setAttribute('download', filename);
+
+  pom.style.display = 'none';
+  document.body.appendChild(pom);
+
+  pom.click();
+
+  document.body.removeChild(pom);
+}
+</script>
+<link id="theme-style" rel="stylesheet" href="../css/bootstrap.editor.css">
+<link id="fontawesome" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../css/wysiwyg.css" rel="stylesheet">
+<link href="../css/highlight.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container py-5">
+<div class="text-center py-5"><a href="/app/bootstrap-text-editor.html" class="btn btn-primary">Bootstrap WYSIWYG Editor</a></div>
+</div>
+
+<div class="container py-5">
+<div class="well">This is a Bootstrap WYSIWYG Editor. You can save your post in a txt format. I created this app to make use of the Grammarly app on my browser.</div>
+<div class="single-col-max mx-auto">
+<div class="well" style="margin: 2rem 0;">
+<form onSubmit="download(this['name'].value, this['text'].value)">
+<input class="form-control" type="text" name="name" value="post.txt">
+<textarea id="editor" class="form-control" rows=3 cols=50 name="text" placeholder="Start Typing">
+</textarea>
+<button type="submit" class="btn btn-primary">SAVE</button>
+</form>
+</div>
+</div>
+</div>
+
+<div class="container py-5">
+<div class="text-center py-5"><a href="/" class="btn btn-primary">Visit my blog!</a></div>
+</div>
+
+
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/bootstrap.editor.js"></script>
+<script src="../js/wysiwyg.js"></script>
+<script src="../js/highlight.js"></script>
+<script type="text/javascript">
+            $(document).ready(function () {
+                $('#editor').wysiwyg({
+
+                });
+            });
+</script>
+</body>
+</html>
