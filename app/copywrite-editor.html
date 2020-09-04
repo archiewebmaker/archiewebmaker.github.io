@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>Copywrite Editor - Archie Webmaker</title>
+	
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Archie Webmaker is a smart digital design agency mixing a blend of digital strategy, branding, creative and technology to drive business success.">
+<meta name="keywords" content="Blog Branding, Website Branding, Personal Branding, Build Blog, Start Blog, Grow Blog, Brand Strategy, Brand Identity, Brand Marketing.">
+<meta name="author" content="Archie Webmaker">    
+<link rel="shortcut icon" href="favicon.ico"> 
+	
+<meta property="og:title" content="Archie Webmaker">
+<meta property="og:description" content="Archie Webmaker is a smart digital design agency mixing a blend of digital strategy, branding, creative and technology to drive business success.">
+<meta property="og:image" content="https://archiewebmaker.com/images/archie-webmaker-hands.png">
+<meta property="og:url" content="https://archiewebmaker.com/app/copywrite-editor.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Archie Webmaker">
+<meta name="twitter:image:alt" content="Archie Webmaker">
+	
+<link href="https://fonts.googleapis.com/css?family=Montserrat:800|Roboto:400,500,700&display=swap" rel="stylesheet">
+<link id="fontawesome" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<link id="theme-style" rel="stylesheet" href="../css/theme-1.css">
+<script language="Javascript" >
+function download(filename, text) {
+  var pom = document.createElement('a');
+  pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + 
+
+encodeURIComponent(text));
+  pom.setAttribute('download', filename);
+
+  pom.style.display = 'none';
+  document.body.appendChild(pom);
+
+  pom.click();
+
+  document.body.removeChild(pom);
+}
+</script>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f4f3a0447a1c50012e3e66b&product=inline-share-buttons" async="async"></script>
+</head> 
+<body>    
+<div data-include="header"></div>
+<div class="container">
+<div class="single-col-max mx-auto">
+<div class="text-center py-5"><a href="/app/copywrite-editor.html" class="btn btn-primary">Copywrite Editor</a></div>
+<div class="sharethis-inline-share-buttons"></div>
+
+<div class="well py-3">Install the Grammarly app on your browser to help you edit and write a better copy.</div>
+
+<div class="well" style="margin: 2rem 0;">
+<form onSubmit="download(this['name'].value, this['text'].value)">
+<input class="form-control" type="text" name="name" value="copywriting.txt">
+<textarea id="editor" class="form-control" rows=10 cols=50 name="text" placeholder="Start Typing">
+</textarea>
+<button type="submit" class="btn btn-primary">Save Your Copy</button>
+</form>
+</div>
+<div class="text-center py-5"><a href="/" class="btn btn-primary">Archie Webmaker</a></div>
+</div>
+</div>
+
+<div data-include="footer"></div>
+
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script>
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = '/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script>
+
+<script data-ad-client="ca-pub-0145681288409570" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174556828-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174556828-1');
+</script>
+</body>
+</html>
