@@ -18,9 +18,18 @@ border-top-left-radius: .25rem !important;
 border-top-right-radius: .25rem !important;
 }
 
+#section-red {
+background:#d6382d !important;
+}
+
+.section-red {
+color:#ffffff;
+}
+
 #section-trending {
 color:#d6382d;
 }
+
 
 #section-blog {
 background:#322348 !important;
