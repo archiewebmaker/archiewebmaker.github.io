@@ -19,18 +19,48 @@
 <meta property="og:site_name" content="Archie Webmaker">
 <meta name="twitter:image:alt" content="Archie Webmaker">
 	
-<link href="https://fonts.googleapis.com/css?family=Montserrat:800|Roboto:400,500,700&display=swap" rel="stylesheet">
-<link id="fontawesome" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link id="theme-style" rel="stylesheet" href="/css/theme-1.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link id="fontawesome" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">   
+<link id="theme-style" rel="stylesheet" href="/css/styles.css">
 </head> 
 <body>    
-<article id="article" class="article section pt-md-4 pt-lg-5">
+<div data-include="header"></div>
+
+<article id="article" class="article">
 <div class="container py-5">
-<div class="section-col-max mx-auto">
+<div class="col-9 mx-auto py-5">
 <div data-include="d-alert"></div>
 </div>
 </div>
 </article>
 
+<div data-include="footer"></div>
+	
+<script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script>
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = '/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script> 
+<script type="text/javascript" src="/js/jquery.scrollTo.min.js"></script>     
+<script type="text/javascript" src="/js/main.js"></script> 
+<script type="text/javascript" src="/js/back-to-top.js"></script>       
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122243453-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122243453-1');
+</script>
 </body>
 </html>
