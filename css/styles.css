@@ -318,7 +318,7 @@ clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 
 /* ======= Hero Section ======= */
 .hero-section {
-min-height: 560px;
+min-height: 480px;
 background: rgba(14,11,43,0.9) url("../images/map.png") no-repeat center center;
 position: relative;
 clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
