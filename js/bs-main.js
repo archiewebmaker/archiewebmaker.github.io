@@ -48,32 +48,14 @@ addBackToTop({
 });
     
 /* ==== JS Back To Top ====== */
-$(document).ready(function(){
-            //Let's first setup the redirect
-        function redirect(){
-            window.location.assign('https://www.archiewebmaker.com');
-        }
-
-            //which things we got to check
-        function check(){
-                if($('#credits').length === 0){
-                    redirect();
-                }
-
-                else if($('#creditlink').length === 0){
-                    redirect();
-                }
-
-                else if($("#creditlink").attr("href") !== "https://www.archiewebmaker.com"){
-                    redirect();
-                }
-
-                else if($('#creditlink').text() !== "Archie Webmaker"){
-                    redirect();
-                } 
-            }
-        //execute the function on page load
-        check();
-        //excute the function at the intervals of 5 seconds.
-        setInterval(function () {check()}, 5000);
-        });
+//<![CDATA[
+$(document).ready(function()
+{
+var aa=$("#mycredit").val();
+if (aa == null) {
+    window.location.href = "https://www.archiewebmaker.com";
+};
+$("#mycredit").attr("href","
+https://www.archiewebmaker.com");
+});
+//]]>
