@@ -41,26 +41,39 @@ function headerAnimation () {
 };
     
 
-/* ==== Vanilla JS Back To Top Widget ====== */
-/* Ref: https://github.com/vfeskov/vanilla-back-to-top */
+
 addBackToTop({
   cornerOffset: 15, // px
   id:'back-to-top',
 });
     
-
-//<![CDATA[
-$(document).ready(function()
-{
-var aa=$("#mycredit").val();
-if (aa == null) {
-    window.location.href = "https://www.archiewebmaker.com";
-};
-$("#mycredit").attr("href","
-https://www.archiewebmaker.com");
-});
-//]]>
-	
-
-
-    
+/* ==== JS Back To Top ====== */
+JScriptCodeDom.CodeParseException: String have line break , Line 8, Char 27 ---> System.Exception: String have line break
+   at JScriptCodeDom.CodeReader.ReadString()
+   at JScriptCodeDom.CodeReader.ReadToken(Boolean previsexpression)
+   at JScriptCodeDom.CodeReader.PeekToken(Boolean previsexpression)
+   at JScriptCodeDom.CodeParser.SkipBlanksAndPeek(Boolean previsexp)
+   at JScriptCodeDom.CodeParser.ParseCommaSplitedCollection()
+   at JScriptCodeDom.CodeParser.ContinueExpressionCore(CodeExpression leftexp, Boolean allowcommer, Boolean parsingFunctionStatement)
+   at JScriptCodeDom.CodeParser.ContinueExpression(CodeExpression leftexp, Boolean allowcommer, Boolean parsingFunctionStatement)
+   at JScriptCodeDom.CodeParser.InternalParseStatementCore()
+   at JScriptCodeDom.CodeParser.InternalParseStatement()
+   at JScriptCodeDom.CodeParser.ParseStatement()
+   at JScriptCodeDom.CodeParser.ParseBlock()
+   at JScriptCodeDom.CodeParser.ParseFunctionForQuoteStart(CodeFunctionExpression func)
+   at JScriptCodeDom.CodeParser.ParseFunctionExpression()
+   at JScriptCodeDom.CodeParser.ParseLazyExpressionCore(Boolean bthrowerr)
+   at JScriptCodeDom.CodeParser.ParseLazyExpression(Boolean bthrowerr)
+   at JScriptCodeDom.CodeParser.ParseCommaSplitedCollection()
+   at JScriptCodeDom.CodeParser.ContinueExpressionCore(CodeExpression leftexp, Boolean allowcommer, Boolean parsingFunctionStatement)
+   at JScriptCodeDom.CodeParser.ContinueExpression(CodeExpression leftexp, Boolean allowcommer, Boolean parsingFunctionStatement)
+   at JScriptCodeDom.CodeParser.InternalParseStatementCore()
+   at JScriptCodeDom.CodeParser.InternalParseStatement()
+   at JScriptCodeDom.CodeParser.ParseStatement()
+   at JScriptCodeDom.CodeParser.ParseBlock()
+   at JScriptCodeDom.CodeParser.Parse(String code, String filename, Int32 lineoffset, Boolean keeplinenum)
+   --- End of inner exception stack trace ---
+   at JScriptCodeDom.CodeParser.Parse(String code, String filename, Int32 lineoffset, Boolean keeplinenum)
+   at ProtectorV1.Protect(String[] codes)
+   at ProtectorV1.Protect(String code)
+   at ASP.javascript_obfuscator_aspx.Button1_Click(Object sender, EventArgs e)
