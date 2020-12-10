@@ -41,7 +41,7 @@ function headerAnimation () {
 };
     
 
-/* ==== JS Back To Top ====== */
+
 addBackToTop({
   cornerOffset: 15, // px
   id:'back-to-top',
