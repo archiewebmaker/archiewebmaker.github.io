@@ -1,10 +1,5 @@
 /*!
- * Social Locker - v1.6.0, 2014-06-04 
- * for jQuery: http://onepress-media.com/plugin/social-locker-for-jquery/get 
- * for Wordpress: http://onepress-media.com/plugin/social-locker-for-wordpress/get 
- * 
- * Copyright 2014, OnePress, http://byonepress.com 
- * Help Desk: http://support.onepress-media.com/ 
+ * Social Locker - 2021 
 */
 /*!* Preset resources for Social Locker.*/
 
